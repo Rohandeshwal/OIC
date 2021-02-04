@@ -1,0 +1,229 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+
+.eventNameList {
+  .actionContainer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+  }
+  .customFile {
+    .customFileInput {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: calc(2.25rem + 2px);
+      margin: 0;
+      opacity: 0;
+    }
+  }
+  .flagfileuploadwrapper {
+    $defaultColor: #0b6a54;
+    $height: 42px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    position: relative;
+    width: 70%;
+    height: $height;
+
+    &:after {
+      content: "upload flag";
+      font-size: 14px;
+      font-weight: 500;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fff;
+      padding: 8px 15px;
+      display: block;
+      width: calc(100%);
+      pointer-events: none;
+      z-index: 20;
+      height: $height - 20px;
+      line-height: $height - 20px;
+      color: #999;
+      border-radius: 5px 10px 10px 5px;
+    }
+
+    &:before {
+      content: "Upload";
+      position: absolute;
+      top: 0;
+      right: -100px;
+      display: inline-block;
+      height: 42px;
+      background: $defaultColor;
+      color: #fff;
+      font-weight: bold;
+      z-index: 25;
+      font-size: 12px;
+      line-height: $height;
+      padding: 0 15px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 99;
+      height: $height - 20px;
+      margin: 0;
+      padding: 0;
+      display: block;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+  .uploadDocuments {
+    // custom file
+
+    .sliderContent {
+      margin: 16px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      color: #2699fb;
+      opacity: 1;
+    }
+    .buttonConatainer {
+      display: flex;
+    }
+    .button {
+      border: none;
+      background: #0b6a54 0 0 no-repeat padding-box;
+
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+      border-radius: 4px;
+      opacity: 1;
+      outline: 0;
+      width: 81px;
+      margin: 0px 2px;
+      height: 40px;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    .Content {
+      font-size: 12px;
+
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 0.51;
+    }
+    .publishedContents {
+      display: flex;
+      justify-content: space-between;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 28px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 25px;
+      width: 25px;
+      left: 2px;
+      top: 1px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    input:checked + .slider {
+      background-color: #2699fb;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2699fb;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider {
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      border-radius: 50%;
+    }
+    .textHeading {
+      letter-spacing: 0px;
+      color: #0b6a54;
+      opacity: 1;
+      font-size: 24px;
+      font-weight: 600;
+      padding: 13px;
+    }
+    .uploadForms {
+      padding: 13px;
+    }
+
+    // file btn css
+    .choose::-webkit-file-upload-button {
+      display: inline-block;
+      border: none;
+      padding: 7px 10px;
+      margin-right: 50px;
+      cursor: pointer;
+      font-size: 10pt;
+      position: relative;
+      top: -5px;
+    }
+
+    .choose:after {
+      content: attr(value);
+      position: absolute;
+      top: 0;
+      left: 15px;
+      bottom: 0;
+      text-align: center;
+      background: #0b6a54;
+      color: #fff;
+      border: none;
+      padding: 7px 17px;
+      font-weight: 700;
+      border-radius: 3px;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 10pt;
+      width: 138px;
+    }
+  }
+  .ftIcon {
+    color: grey;
+    font-size: 19px;
+    margin: 8px 16px;
+  }
+}

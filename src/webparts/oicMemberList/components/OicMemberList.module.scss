@@ -1,0 +1,16 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+
+.oicMemberList {
+  .actionContainer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .ftIcon {
+    color: grey;
+    font-size: 19px;
+    margin: 8px 16px;
+  }
+}

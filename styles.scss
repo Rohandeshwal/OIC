@@ -1,0 +1,297 @@
+// Common create and save button
+.cancelButton {
+  border: none;
+  background: #ffffff 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  padding: 10px 40px;
+  margin-right: 10px;
+  opacity: 1;
+  outline: 0;
+  color: #333333;
+  font-weight: bold;
+  font-size: 12px;
+}
+.cancelButton:hover {
+  border: none;
+  background: #ffffff 0 0 no-repeat padding-box !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  padding: 10px 40px;
+  margin-right: 10px;
+  opacity: 1;
+  outline: 0;
+  color: #333333;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.saveButton {
+  border: none;
+  background: #0b6a54 0 0 no-repeat padding-box !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  padding: 10px 40px;
+  opacity: 1;
+  outline: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.ftIcon {
+  color: grey;
+  font-size: 19px;
+}
+.saveButton :hover {
+  border: none;
+  background: #0b6a54 0 0 no-repeat padding-box !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  padding: 10px 40px;
+  opacity: 1;
+  outline: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.uploadButton {
+  border: none;
+  background: #7d7d7d 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  padding: 10px 40px;
+  opacity: 1;
+  outline: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.uploadButton:hover {
+  .uploadButton {
+    border: none;
+    background: #7d7d7d 0 0 no-repeat padding-box !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+    border-radius: 4px;
+    padding: 10px 40px;
+    opacity: 1;
+    outline: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+.addButton {
+  border: none;
+  background: #7d7d7d 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  padding: 10px 15px;
+  opacity: 1;
+  min-width: 20%;
+  outline: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.addButton:hover {
+  border: none;
+  background: #7d7d7d 0 0 no-repeat padding-box !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 4px;
+  min-width: 20%;
+  padding: 10px 15px;
+  opacity: 1;
+  outline: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+// MODAL CSS
+
+.modalFooter {
+  padding: 19px !important;
+  background-color: white !important;
+  border: none !important;
+}
+.modalDialog {
+  max-width: 720px !important;
+}
+.modalContent {
+  text-decoration: none;
+}
+.modalHeader {
+  justify-content: flex-start !important;
+}
+.modalBody {
+  padding: 19px !important;
+}
+
+.modealLabelText {
+  font-size: 14px;
+  color: #333333;
+  margin: 2px 0px;
+}
+
+.modalNameText {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  margin: 2px 0px;
+}
+
+.modalProfileImgSize {
+  max-width: 100%;
+  // max-height: 120px;
+}
+.modalImgSize {
+  max-width: 160px;
+  max-height: 120px;
+}
+
+// common heading
+.heading {
+  letter-spacing: 0px;
+  color: #0b6a54;
+  opacity: 1;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.labelHeading {
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  font-weight: 600;
+}
+
+// file btn css
+.choose::-webkit-file-upload-button {
+  display: inline-block;
+  border: none;
+  padding: 7px 10px;
+  margin-right: 50px;
+  cursor: pointer;
+  font-size: 10pt;
+  position: relative;
+  top: -5px;
+}
+
+.choose:after {
+  content: attr(value);
+  position: absolute;
+  top: 0;
+  left: 15px;
+  bottom: 0;
+  text-align: center;
+  background: #ececec;
+  color: #333333;
+  border: none;
+  padding: 7px 17px;
+  font-weight: 600;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+  width: 126px;
+}
+
+.borderBottom {
+  border-bottom: 2px solid #f5e9de !important;
+}
+
+.borderTop {
+  border-top: 2px solid #f5e9de;
+}
+
+.imgSize {
+  width: 14px;
+}
+
+//search Section
+
+.actionContainer {
+  .searchHeader {
+    width: 250px;
+  }
+
+  .searchIcon {
+    position: relative;
+    width: 16px;
+    right: 25px;
+  }
+}
+
+.tableText {
+  font-size: 12px;
+  padding: 0.75rem 8px;
+}
+
+.tableText tbody tr td {
+  vertical-align: middle !important;
+  // padding: 4px 0px !important;
+  text-align: left !important;
+}
+.tableText thead tr th {
+  text-align: left !important;
+}
+
+.btnSize {
+  padding: unset;
+  outline: unset;
+  outline-offset: unset;
+}
+
+.form-control {
+  background: #fdfdfd 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 1px 3px #00000029 !important;
+  border: 1px solid #cccccc !important;
+  border-radius: 4px !important;
+  opacity: 1;
+}
+
+// scroll
+
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 50%)
+) {
+  ::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  .chatBox,
+  .memberList {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+@include scrollbars(0.5em, slategray);
+
+
+
+
+// common modal open  
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 9999 !important;
+  top: 42px !important;
+  margin: 9px !important;
+  background: transparent !important;
+}
+

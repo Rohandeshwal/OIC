@@ -1,0 +1,6 @@
+.modal-open .modal {
+  opacity: 9999 !important;
+  top: 42px !important;
+  margin: 9px !important;
+  background: transparent !important;
+}

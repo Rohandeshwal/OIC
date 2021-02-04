@@ -1,0 +1,17 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+
+.viewVisaUpload {
+  .modalContent {
+    border-radius: 42px;
+  }
+
+  .ftIcon {
+    color: grey;
+    font-size: 19px;
+    margin: 8px 16px;
+  }
+  .styledSelect {
+    text-decoration: none;
+  }
+}

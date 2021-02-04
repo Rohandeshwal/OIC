@@ -1,0 +1,18 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+
+.eventNegotiation {
+  col {
+    color: red;
+  }
+  #headingOne {
+    background: white;
+  }
+  .uploadButton {
+    padding: 10px 35px;
+  }
+  .cardHeader {
+    background: white !important;
+    border-bottom: 1px solid grey;
+  }
+}

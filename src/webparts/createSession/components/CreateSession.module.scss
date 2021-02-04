@@ -1,0 +1,51 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+.createSession {
+  .createHeading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2e1ce;
+    padding-bottom: 23px;
+  }
+
+  .nationalDay {
+    pointer-events: none;
+  }
+  .btnLink {
+    height: 38px;
+    text-decoration: none;
+    border-radius: 42%;
+    padding: 9px;
+    border: none;
+    width: 95%;
+  }
+  .action {
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    text-decoration: none;
+    outline: none;
+    background: white;
+    border: 1px solid #d0d0b5;
+  }
+
+  // input[type="date"]:before {
+  //   content: attr(placeholder);
+  // }
+  // input:focus[type="date"]:before {
+  //   content: attr(placeholder);
+  //   display: none;
+  // }
+  input[type="date"]:before {
+    content: attr(placeholder);
+  }
+  // input:active[type="date"]:before {
+  //   display: none !important;
+  // }
+  // input:focus-visible[type="date"]:before {
+  //   display: none;
+  // }
+  // input:visited[type="date"]:before {
+  //   display: none !important;
+  // }
+}

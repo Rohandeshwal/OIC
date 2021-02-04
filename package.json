@@ -1,0 +1,47 @@
+{
+  "name": "oic-evs",
+  "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@microsoft/sp-core-library": "~1.4.0",
+    "@microsoft/sp-lodash-subset": "~1.4.0",
+    "@microsoft/sp-office-ui-fabric-core": "~1.4.0",
+    "@microsoft/sp-webpart-base": "~1.4.0",
+    "@pnp/spfx-controls-react": "^1.17.0",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "multiselect-react-dropdown": "^1.6.1",
+    "popper.js": "^1.16.1",
+    "react": "15.6.2",
+    "react-dom": "15.6.2",
+    "react-select": "^3.1.1",
+    "react-select-plus": "^1.0.0-rc.3.patch12"
+  },
+  "devDependencies": {
+    "@microsoft/sp-build-web": "~1.4.1",
+    "@microsoft/sp-module-interfaces": "~1.4.1",
+    "@microsoft/sp-webpart-workbench": "~1.4.1",
+    "@types/chai": "3.4.34",
+    "@types/es6-promise": "0.0.33",
+    "@types/microsoft-ajax": "0.0.35",
+    "@types/mocha": "2.2.38",
+    "@types/react": "15.6.6",
+    "@types/react-dom": "15.5.6",
+    "@types/sharepoint": "^2016.1.9",
+    "@types/webpack-env": "1.13.1",
+    "ajv": "~5.2.2",
+    "gulp": "~3.9.1"
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "event-listing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventListing/EventListingWebPart.js",
+          "manifest": "./src/webparts/eventListing/EventListingWebPart.manifest.json"
+        }
+      ]
+    },
+    "attendees-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/attendeesList/AttendeesListWebPart.js",
+          "manifest": "./src/webparts/attendeesList/AttendeesListWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-name-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventNameList/EventNameListWebPart.js",
+          "manifest": "./src/webparts/eventNameList/EventNameListWebPart.manifest.json"
+        }
+      ]
+    },
+    "upload-documents-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadDocuments/UploadDocumentsWebPart.js",
+          "manifest": "./src/webparts/uploadDocuments/UploadDocumentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventDetails/EventDetailsWebPart.js",
+          "manifest": "./src/webparts/eventDetails/EventDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-sessions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventSessions/EventSessionsWebPart.js",
+          "manifest": "./src/webparts/eventSessions/EventSessionsWebPart.manifest.json"
+        }
+      ]
+    },
+    "session-details-popup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sessionDetailsPopup/SessionDetailsPopupWebPart.js",
+          "manifest": "./src/webparts/sessionDetailsPopup/SessionDetailsPopupWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-member-states-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addMemberStates/AddMemberStatesWebPart.js",
+          "manifest": "./src/webparts/addMemberStates/AddMemberStatesWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-ministry-popup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addMinistryPopup/AddMinistryPopupWebPart.js",
+          "manifest": "./src/webparts/addMinistryPopup/AddMinistryPopupWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-organization-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addOrganization/AddOrganizationWebPart.js",
+          "manifest": "./src/webparts/addOrganization/AddOrganizationWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-organization-popup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addOrganizationPopup/AddOrganizationPopupWebPart.js",
+          "manifest": "./src/webparts/addOrganizationPopup/AddOrganizationPopupWebPart.manifest.json"
+        }
+      ]
+    },
+    "manage-guest-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/manageGuestDetails/ManageGuestDetailsWebPart.js",
+          "manifest": "./src/webparts/manageGuestDetails/ManageGuestDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-guest-popup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addGuestPopup/AddGuestPopupWebPart.js",
+          "manifest": "./src/webparts/addGuestPopup/AddGuestPopupWebPart.manifest.json"
+        }
+      ]
+    },
+    "personnel-list-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/personnelListDetails/PersonnelListDetailsWebPart.js",
+          "manifest": "./src/webparts/personnelListDetails/PersonnelListDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-personanel-popup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addPersonanelPopup/AddPersonanelPopupWebPart.js",
+          "manifest": "./src/webparts/addPersonanelPopup/AddPersonanelPopupWebPart.manifest.json"
+        }
+      ]
+    },
+    "oic-member-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oicMemberDetails/OicMemberDetailsWebPart.js",
+          "manifest": "./src/webparts/oicMemberDetails/OicMemberDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "oic-member-details-popup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oicMemberDetailsPopup/OicMemberDetailsPopupWebPart.js",
+          "manifest": "./src/webparts/oicMemberDetailsPopup/OicMemberDetailsPopupWebPart.manifest.json"
+        }
+      ]
+    },
+    "create-events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createEvents/CreateEventsWebPart.js",
+          "manifest": "./src/webparts/createEvents/CreateEventsWebPart.manifest.json"
+        }
+      ]
+    },
+    "member-state-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/memberStateDetails/MemberStateDetailsWebPart.js",
+          "manifest": "./src/webparts/memberStateDetails/MemberStateDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "create-session-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createSession/CreateSessionWebPart.js",
+          "manifest": "./src/webparts/createSession/CreateSessionWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-negotiation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventNegotiation/EventNegotiationWebPart.js",
+          "manifest": "./src/webparts/eventNegotiation/EventNegotiationWebPart.manifest.json"
+        }
+      ]
+    },
+    "attendees-personnel-listing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/attendeesPersonnelListing/AttendeesPersonnelListingWebPart.js",
+          "manifest": "./src/webparts/attendeesPersonnelListing/AttendeesPersonnelListingWebPart.manifest.json"
+        }
+      ]
+    },
+    "attendees-look-up-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/attendeesLookUpList/AttendeesLookUpListWebPart.js",
+          "manifest": "./src/webparts/attendeesLookUpList/AttendeesLookUpListWebPart.manifest.json"
+        }
+      ]
+    },
+    "attedees-guest-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/attedeesGuestList/AttedeesGuestListWebPart.js",
+          "manifest": "./src/webparts/attedeesGuestList/AttedeesGuestListWebPart.manifest.json"
+        }
+      ]
+    },
+    "guest-look-up-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/guestLookUpList/GuestLookUpListWebPart.js",
+          "manifest": "./src/webparts/guestLookUpList/GuestLookUpListWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-guest-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addGuest/AddGuestWebPart.js",
+          "manifest": "./src/webparts/addGuest/AddGuestWebPart.manifest.json"
+        }
+      ]
+    },
+    "attendees-oic-member-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/attendeesOicMemberList/AttendeesOicMemberListWebPart.js",
+          "manifest": "./src/webparts/attendeesOicMemberList/AttendeesOicMemberListWebPart.manifest.json"
+        }
+      ]
+    },
+    "oic-member-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oicMemberList/OicMemberListWebPart.js",
+          "manifest": "./src/webparts/oicMemberList/OicMemberListWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-oic-member-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addOicMemberDetails/AddOicMemberDetailsWebPart.js",
+          "manifest": "./src/webparts/addOicMemberDetails/AddOicMemberDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-collaboration-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventCollaboration/EventCollaborationWebPart.js",
+          "manifest": "./src/webparts/eventCollaboration/EventCollaborationWebPart.manifest.json"
+        }
+      ]
+    },
+    "documents-listing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentsListing/DocumentsListingWebPart.js",
+          "manifest": "./src/webparts/documentsListing/DocumentsListingWebPart.manifest.json"
+        }
+      ]
+    },
+    "session-schedule-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sessionSchedule/SessionScheduleWebPart.js",
+          "manifest": "./src/webparts/sessionSchedule/SessionScheduleWebPart.manifest.json"
+        }
+      ]
+    },
+    "evet-title-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/evetTitle/EvetTitleWebPart.js",
+          "manifest": "./src/webparts/evetTitle/EvetTitleWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-view-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventViewDetails/EventViewDetailsWebPart.js",
+          "manifest": "./src/webparts/eventViewDetails/EventViewDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-view-negotiation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventViewNegotiation/EventViewNegotiationWebPart.js",
+          "manifest": "./src/webparts/eventViewNegotiation/EventViewNegotiationWebPart.manifest.json"
+        }
+      ]
+    },
+    "personnel-view-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/personnelViewDetails/PersonnelViewDetailsWebPart.js",
+          "manifest": "./src/webparts/personnelViewDetails/PersonnelViewDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-view-guest-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventViewGuest/EventViewGuestWebPart.js",
+          "manifest": "./src/webparts/eventViewGuest/EventViewGuestWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-oic-member-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventOicMemberDetails/EventOicMemberDetailsWebPart.js",
+          "manifest": "./src/webparts/eventOicMemberDetails/EventOicMemberDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-viewupload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventViewupload/EventViewuploadWebPart.js",
+          "manifest": "./src/webparts/eventViewupload/EventViewuploadWebPart.manifest.json"
+        }
+      ]
+    },
+    "no-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/noData/NoDataWebPart.js",
+          "manifest": "./src/webparts/noData/NoDataWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventView/EventViewWebPart.js",
+          "manifest": "./src/webparts/eventView/EventViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "upload-visa-document-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadVisaDocument/UploadVisaDocumentWebPart.js",
+          "manifest": "./src/webparts/uploadVisaDocument/UploadVisaDocumentWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-visa-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewVisaUpload/ViewVisaUploadWebPart.js",
+          "manifest": "./src/webparts/viewVisaUpload/ViewVisaUploadWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-organization-popup-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addOrganizationPopupView/AddOrganizationPopupViewWebPart.js",
+          "manifest": "./src/webparts/addOrganizationPopupView/AddOrganizationPopupViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-ministry-popup-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addMinistryPopupView/AddMinistryPopupViewWebPart.js",
+          "manifest": "./src/webparts/addMinistryPopupView/AddMinistryPopupViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-negotiation-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventNegotiationView/EventNegotiationViewWebPart.js",
+          "manifest": "./src/webparts/eventNegotiationView/EventNegotiationViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-member-state-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addMemberStateView/AddMemberStateViewWebPart.js",
+          "manifest": "./src/webparts/addMemberStateView/AddMemberStateViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "create-event-view-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createEventViewDetails/CreateEventViewDetailsWebPart.js",
+          "manifest": "./src/webparts/createEventViewDetails/CreateEventViewDetailsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "globalName": "bootstrap"
+    },
+    "sp-init": {
+      "path": "https://commitme.sharepoint.com/_layouts/15/init.js",
+      "globalName": "$_global_init"
+    },
+    "microsoft-ajax": {
+      "path": "https://commitme.sharepoint.com/_layouts/15/MicrosoftAjax.js",
+      "globalName": "Sys",
+      "globalDependencies": [
+        "sp-init"
+      ]
+    },
+    "sp-runtime": {
+      "path": "https://commitme.sharepoint.com/_layouts/15/SP.Runtime.js",
+      "globalName": "SP",
+      "globalDependencies": [
+        "microsoft-ajax"
+      ]
+    },
+    "sharepoint": {
+      "path": "https://commitme.sharepoint.com/_layouts/15/SP.js",
+      "globalName": "SP",
+      "globalDependencies": [
+        "sp-runtime"
+      ]
+    },
+    "spuserprofile": {
+      "path": "https://commitme.sharepoint.com/_layouts/15/sp.userprofiles.js",
+      "globalName": "SP"
+    }
+  },
+  "localizedResources": {
+    "EventListingWebPartStrings": "lib/webparts/eventListing/loc/{locale}.js",
+    "AttendeesListWebPartStrings": "lib/webparts/attendeesList/loc/{locale}.js",
+    "EventNameListWebPartStrings": "lib/webparts/eventNameList/loc/{locale}.js",
+    "UploadDocumentsWebPartStrings": "lib/webparts/uploadDocuments/loc/{locale}.js",
+    "EventDetailsWebPartStrings": "lib/webparts/eventDetails/loc/{locale}.js",
+    "EventSessionsWebPartStrings": "lib/webparts/eventSessions/loc/{locale}.js",
+    "SessionDetailsPopupWebPartStrings": "lib/webparts/sessionDetailsPopup/loc/{locale}.js",
+    "AddMemberStatesWebPartStrings": "lib/webparts/addMemberStates/loc/{locale}.js",
+    "AddMinistryPopupWebPartStrings": "lib/webparts/addMinistryPopup/loc/{locale}.js",
+    "AddOrganizationWebPartStrings": "lib/webparts/addOrganization/loc/{locale}.js",
+    "AddOrganizationPopupWebPartStrings": "lib/webparts/addOrganizationPopup/loc/{locale}.js",
+    "ManageGuestDetailsWebPartStrings": "lib/webparts/manageGuestDetails/loc/{locale}.js",
+    "AddGuestPopupWebPartStrings": "lib/webparts/addGuestPopup/loc/{locale}.js",
+    "PersonnelListDetailsWebPartStrings": "lib/webparts/personnelListDetails/loc/{locale}.js",
+    "AddPersonanelPopupWebPartStrings": "lib/webparts/addPersonanelPopup/loc/{locale}.js",
+    "OicMemberDetailsWebPartStrings": "lib/webparts/oicMemberDetails/loc/{locale}.js",
+    "OicMemberDetailsPopupWebPartStrings": "lib/webparts/oicMemberDetailsPopup/loc/{locale}.js",
+    "CreateEventsWebPartStrings": "lib/webparts/createEvents/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "MemberStateDetailsWebPartStrings": "lib/webparts/memberStateDetails/loc/{locale}.js",
+    "CreateSessionWebPartStrings": "lib/webparts/createSession/loc/{locale}.js",
+    "EventNegotiationWebPartStrings": "lib/webparts/eventNegotiation/loc/{locale}.js",
+    "AttendeesPersonnelListingWebPartStrings": "lib/webparts/attendeesPersonnelListing/loc/{locale}.js",
+    "AttendeesLookUpListWebPartStrings": "lib/webparts/attendeesLookUpList/loc/{locale}.js",
+    "AttedeesGuestListWebPartStrings": "lib/webparts/attedeesGuestList/loc/{locale}.js",
+    "GuestLookUpListWebPartStrings": "lib/webparts/guestLookUpList/loc/{locale}.js",
+    "AddGuestWebPartStrings": "lib/webparts/addGuest/loc/{locale}.js",
+    "AttendeesOicMemberListWebPartStrings": "lib/webparts/attendeesOicMemberList/loc/{locale}.js",
+    "OicMemberListWebPartStrings": "lib/webparts/oicMemberList/loc/{locale}.js",
+    "AddOicMemberDetailsWebPartStrings": "lib/webparts/addOicMemberDetails/loc/{locale}.js",
+    "EventCollaborationWebPartStrings": "lib/webparts/eventCollaboration/loc/{locale}.js",
+    "DocumentsListingWebPartStrings": "lib/webparts/documentsListing/loc/{locale}.js",
+    "SessionScheduleWebPartStrings": "lib/webparts/sessionSchedule/loc/{locale}.js",
+    "EvetTitleWebPartStrings": "lib/webparts/evetTitle/loc/{locale}.js",
+    "EventViewDetailsWebPartStrings": "lib/webparts/eventViewDetails/loc/{locale}.js",
+    "EventViewNegotiationWebPartStrings": "lib/webparts/eventViewNegotiation/loc/{locale}.js",
+    "PersonnelViewDetailsWebPartStrings": "lib/webparts/personnelViewDetails/loc/{locale}.js",
+    "EventViewGuestWebPartStrings": "lib/webparts/eventViewGuest/loc/{locale}.js",
+    "EventOicMemberDetailsWebPartStrings": "lib/webparts/eventOicMemberDetails/loc/{locale}.js",
+    "EventViewuploadWebPartStrings": "lib/webparts/eventViewupload/loc/{locale}.js",
+    "NoDataWebPartStrings": "lib/webparts/noData/loc/{locale}.js",
+    "EventViewWebPartStrings": "lib/webparts/eventView/loc/{locale}.js",
+    "UploadVisaDocumentWebPartStrings": "lib/webparts/uploadVisaDocument/loc/{locale}.js",
+    "ViewVisaUploadWebPartStrings": "lib/webparts/viewVisaUpload/loc/{locale}.js",
+    "AddOrganizationPopupViewWebPartStrings": "lib/webparts/addOrganizationPopupView/loc/{locale}.js",
+    "AddMinistryPopupViewWebPartStrings": "lib/webparts/addMinistryPopupView/loc/{locale}.js",
+    "EventNegotiationViewWebPartStrings": "lib/webparts/eventNegotiationView/loc/{locale}.js",
+    "AddMemberStateViewWebPartStrings": "lib/webparts/addMemberStateView/loc/{locale}.js",
+    "CreateEventViewDetailsWebPartStrings": "lib/webparts/createEventViewDetails/loc/{locale}.js"
+  }
+}

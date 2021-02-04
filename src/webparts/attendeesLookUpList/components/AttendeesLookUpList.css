@@ -1,0 +1,26 @@
+.selects {
+  width: 30vh;
+}
+/* dropdown css */
+.mySelect {
+  position: relative;
+  display: inline-block;
+}
+.mySelect select {
+  outline: none;
+}
+.mySelect::after {
+  content: "";
+  position: absolute;
+  right: 4px;
+  top: 16px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid#0b6a54;
+  pointer-events: none;
+}
+.Select-arrow {
+  display: none !important;
+}

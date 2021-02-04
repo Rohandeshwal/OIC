@@ -1,0 +1,37 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+
+.sessionSchedule {
+  col {
+    color: red;
+  }
+  #headingOne {
+    background: white;
+  }
+  .uploadButton {
+    padding: 10px 35px;
+  }
+  .cardHeader {
+    background: white !important;
+    border-bottom: 1px solid grey;
+  }
+  .subHeadingText {
+    text-align: left;
+    font: normal normal normal 16px Arial;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+  }
+  .ftIcon {
+    cursor: pointer;
+  }
+  .roomNoText {
+    text-align: left;
+    font: normal normal normal 12px Arial;
+    letter-spacing: 0px;
+
+    color: #0b6752;
+    opacity: 1;
+  }
+}

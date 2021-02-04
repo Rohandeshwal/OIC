@@ -1,0 +1,200 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../../styles.scss";
+
+.eventListing {
+  .cardContainer {
+    grid-template-columns: auto auto auto auto;
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      margin: 6px;
+      height: 97%;
+      width: 100%;
+      .moreInformation {
+        white-space: nowrap;
+        width: 234px;
+        color: #615e5e;
+        opacity: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .searchIcon {
+      position: relative;
+      width: 16px;
+      right: 25px;
+    }
+  }
+  .searchIcon {
+    position: relative;
+    width: 16px;
+    right: 25px;
+  }
+  .bodyContainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2e1ce;
+    padding: 9px;
+    align-items: center;
+  }
+  .bodyContainer > * {
+    margin: 0 8px;
+  }
+  .CardsListing {
+    margin-top: 12px;
+  }
+  .CardsListing {
+    .row {
+      margin-left: -28px !important;
+    }
+  }
+  .header {
+    display: flex;
+    padding: 13px;
+    border-bottom: 1px solid #f2e1ce;
+    margin-bottom: 12px;
+
+    justify-content: space-between;
+  }
+
+  //select
+  .searchHeader {
+    width: 54%;
+    .search {
+      display: flex;
+      align-items: center;
+    }
+    // width: 221px;
+  }
+  .startDate {
+  }
+  .searchHeader input {
+    background: #fdfdfd 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 1px 3px #00000029 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px !important;
+    color: #666666;
+    opacity: 1;
+
+    font-size: 14px;
+  }
+
+  .status {
+    width: 33%;
+  }
+  .status select {
+    background: #fdfdfd 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 1px 3px #00000029 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px !important;
+    color: #666666;
+    opacity: 1;
+    font-size: 14px;
+  }
+  .img {
+    max-width: 100%;
+  }
+  .country {
+    width: 33%;
+  }
+  .country select {
+    background: #fdfdfd 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 1px 3px #00000029 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px !important;
+    color: #666666;
+    opacity: 1;
+    font-size: 14px;
+  }
+  .endDate {
+    width: 35vh;
+  }
+  .endDate input {
+    background: #fdfdfd 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 1px 3px #00000029 !important;
+    border: 1px solid #cccccc !important;
+    color: #666666;
+    border-radius: 4px !important;
+    font-size: 14px;
+    opacity: 1;
+  }
+  .startDate {
+    width: 26vh;
+  }
+  .startDate input {
+    background: #fdfdfd 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 1px 3px #00000029 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px !important;
+    opacity: 1;
+
+    height: calc(1.5em + 0.75rem + 2px);
+
+    font-size: 14px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .cardBetween {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cardHeading {
+    font-size: 16px;
+    color: #0b6a54;
+    font-weight: bold;
+  }
+
+  // img {
+  //   border-radius: 5px 5px 0 0;
+  //   width: 100%;
+  //   height: auto;
+  // }
+
+  .imgPart {
+    background: #0b6a54;
+    clip-path: circle(101% at 41% -46%);
+    position: relative;
+
+    .image {
+      display: inline-block;
+      clip-path: circle(100% at 44% -55%);
+    }
+  }
+
+  .bottomleft {
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+
+    left: 73px;
+
+    font-size: 14px;
+    padding: 4px;
+    color: white;
+    background: #0b6a54;
+
+    border-radius: 21px 0 0 21px;
+    opacity: 1;
+  }
+
+  .topRight {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  .cardBody {
+    padding: 16px 11px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .bottomleft {
+    font-size: 12px !important;
+    left: 39px !important;
+  }
+}

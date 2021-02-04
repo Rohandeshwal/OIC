@@ -1,0 +1,6 @@
+.dropdown > .dropdown-toggle:after {
+  display: none !important;
+}
+.dropdown-toggle {
+  cursor: pointer !important;
+}

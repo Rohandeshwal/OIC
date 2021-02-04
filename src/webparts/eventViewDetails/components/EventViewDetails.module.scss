@@ -1,0 +1,81 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+
+.eventViewDetails {
+  text-decoration: none;
+  .imgPart {
+    position: relative;
+
+    .image {
+      display: inline-block;
+      img {
+        border-radius: 18px;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .bottomleft {
+      position: absolute;
+      bottom: 20px;
+      left: 16px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 20px;
+      right: 16px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .smallDescription {
+    margin-top: 12px;
+
+    border-bottom: 2px solid #f5e9de !important;
+    padding-bottom: 20px;
+  }
+  .smallDescriptionHeading {
+    font-weight: bold;
+    color: #333333;
+  }
+  .mapHeading {
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+  }
+  .Address1 {
+    font-weight: bold;
+  }
+  .Address2 {
+    line-height: 1;
+    color: #333333;
+    font-weight: 600;
+  }
+  .Address3 {
+    line-height: 0;
+    color: #333333;
+    font-weight: 600;
+  }
+  .latLong {
+    line-height: 1;
+    font-weight: 600;
+
+    color: #333333;
+  }
+  .time {
+    font-weight: bold;
+    margin-left: 6vh;
+  }
+  .dateText {
+    color: #615e5e;
+    line-height: 1;
+    font-weight: 600;
+  }
+  .description {
+    letter-spacing: 0px;
+    color: #615e5e;
+    opacity: 1;
+  }
+}

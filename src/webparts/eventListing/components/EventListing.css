@@ -1,0 +1,79 @@
+.bottomleft {
+  opacity: 0;
+  position: absolute;
+  top: 20px;
+
+  left: 76px;
+  /* // color: #333; */
+  font-size: 14px;
+  padding: 4px;
+  color: white;
+  background: #0b6a54;
+  /* // background: #f2e1ce;` */
+  border-radius: 21px 0 0 21px;
+  opacity: 1;
+}
+.img {
+  max-width: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 6px;
+  height: 97% !important;
+  width: 100%;
+}
+.moreInformation {
+  white-space: nowrap;
+  width: 234px;
+  color: #615e5e;
+  opacity: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.imgPart {
+  background: #0b6a54;
+  clip-path: circle(97% at 41% -46%);
+  position: relative;
+}
+.imgPart .image {
+  display: inline-block;
+  clip-path: circle(98% at 44% -55%);
+}
+
+.cardBody {
+  padding: 16px 11px !important;
+}
+.cardBetween {
+  display: flex;
+}
+.cardHeading {
+  font-size: 16px;
+  color: #0b6a54;
+  font-weight: 700;
+}
+/* dropdown css */
+.mySelect {
+  position: relative;
+  display: inline-block;
+}
+.mySelect select {
+  outline: none;
+}
+.mySelect::after {
+  content: "";
+  position: absolute;
+  right: 4px;
+  top: 14px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid#0b6a54;
+  pointer-events: none;
+}
+.Select-arrow {
+  display: none !important;
+}

@@ -1,0 +1,33 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "../../../../styles.scss";
+.createEvents {
+  .createHeading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2e1ce;
+    padding-bottom: 23px;
+  }
+  .basicInfo {
+    color: #333333;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #0b6a54 !important;
+  }
+  .selects {
+    .Select--multi .Select-value {
+      background: white !important;
+      border-radius: 23px !important;
+      padding: 1px 3px !important;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.dropdown > .dropdown-toggle:after {
+  display: none !important;
+}
+.dropdown-toggle {
+  cursor: pointer !important;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 9999 !important;
+  top: 42px !important;
+  margin: 9px !important;
+  background: transparent !important;
+}

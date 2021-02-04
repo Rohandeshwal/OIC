@@ -1,0 +1,22 @@
+/* .title {
+  color: red;
+}
+.font {
+  font-size: 4px;
+} */
+.btn-link {
+  color: #0b6a54 !important;
+  text-decoration: none !important;
+}
+.card {
+  border: none !important;
+}
+.card-header {
+  border-bottom: 1px solid #f5e9de !important;
+  padding: 0px !important;
+  margin: 2px !important;
+}
+
+.btn-link:focus {
+  box-shadow: none !important;
+}

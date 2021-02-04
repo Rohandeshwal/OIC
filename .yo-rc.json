@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "onprem19",
+    "version": "1.11.0",
+    "libraryName": "oic-evs",
+    "libraryId": "91055491-fa76-4c22-be7f-6fc11ad4c208",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

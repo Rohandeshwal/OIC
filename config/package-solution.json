@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "oic-evs-client-side-solution",
+    "id": "91055491-fa76-4c22-be7f-6fc11ad4c208",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/oic-evs.sppkg"
+  }
+}
